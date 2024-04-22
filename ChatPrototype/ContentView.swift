@@ -11,6 +11,7 @@ struct ContentView: View {
     var body: some View {
         VStack {
             Text("Knock, knock!")
+                .background(Color.yellow, in: RoundedRectangle(cornerRadius: 8))
                 .padding()
             Text("Who's there?")
         }
